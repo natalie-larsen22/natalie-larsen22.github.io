@@ -1,15 +1,24 @@
 header {
-    padding: 220px;
-    border-radius: 4px;
-    background-image: url(family1.jpg);
-    background-size: 1700px;
-    background-position-y: -335px;
+    background-color: white;
+    padding: 100px;
+    background-image: url(mental\ mommy\ \(1\).png);
+    background-size: 600px;
+    background-position-y: center;
+    background-position-x: center;
+    background-repeat: no-repeat;
 
 }
 
+.family {
+    background-position-x: center;
+    padding: 180px;
+    background-size: 1600px;
+    background-image: url(collage2.png);
+    background-repeat: no-repeat;
+    border-radius: 4px;
+}
 
 .centered {
-    background-color: #DDA592;
     padding: 20px;
     color: black;
     text-align: center;
@@ -44,7 +53,6 @@ header {
 .menu-item {
     width: 400px;
     background-color: #DDA592;
-    border-radius: 5px;
     color: white;
     border-style: solid;
 }
@@ -67,7 +75,7 @@ header {
 }
 
 .body-color {
-    background-color: ivory;
+    background-color: white;
 }
 
 #green {
