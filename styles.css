@@ -9,8 +9,9 @@ header {
 .family {
     background-position-x: center;
     padding: 180px;
-    background-size: 1600px;
-    background-image: url(collage2.png);
+
+
+
     background-repeat: no-repeat;
     border-radius: 4px;
 }
@@ -46,7 +47,7 @@ header {
     font-size: 18px;
     font-weight: bolder;
     padding-left: 600px;
-    padding-right: 250px;
+    padding-right: 600px;
 }
 
 .centered-3 {
@@ -55,8 +56,23 @@ header {
     font-family: 'Courier New';
     font-size: 18px;
     font-weight: bolder;
-    padding-left: 500px;
-    padding-right: 500px;
+    padding-left: 600px;
+    padding-right: 600px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-content: end;
+    padding-left: 680px;
+    padding-right: 600px;
+}
+
+.famcenter {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 0px;
 }
 
 .paragraph {
@@ -121,6 +137,15 @@ header {
     align-content: center;
     padding-left: 90px;
 
+}
+
+#video2 {
+    display: flex;
+    justify-content: center;
+    align-content: flex-end;
+    padding-left: 545px;
+    padding-right: 545px;
+    padding-bottom: 0px;
 }
 
 #photos {
